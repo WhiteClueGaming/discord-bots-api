@@ -1,6 +1,6 @@
 # discord-bots-api
 -https://dbots.ml/
-You can report about the api!
+-You can report about the api!
 
 # Npm Package
 - https://www.npmjs.com/package/discord.dbl
