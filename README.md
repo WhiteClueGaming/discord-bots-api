@@ -22,7 +22,21 @@ client.on("ready", async () => {
 
 //Able to post both server & shards count.....
 ```
+Or
+```js
+//Direct Method
 
+require("node-fetch")(`https://dbots.ml/api/bots/stats`, {
+        method: 'POST',
+        headers: { 
+          'serverCount': 1, //If you want to post shards count add 'shardCount': 3, below the server count!
+          'Content-Type': 'application/json', 
+          'Authorization': api token
+        },
+    })
+    .then(console.log("Server count posted."));
+  }
+```
 # Has Voted 
 
 ```js
